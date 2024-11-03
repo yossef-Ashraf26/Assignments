@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "DroidKufi";
+  src: url("../fonts/DroidKufi-Regular.ttf");
+}
+
+:root {
+  --primaryColor: #FE6059;
+  --secondaryColor: #1dc3f6;
+  --greyColor: #eee;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --boxShadow: 5px 4px 9px #dfdfdf;
+  --droidKufi: "DroidKufi";
+  --robotoFonts: "Roboto";
+  --sectionPadding: 80px 0px;
+}
+
+* {
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 1700px; */
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
+}
+
+.header {
+  width: 100%;
+  height: 25%;
+  background-color: skyblue;
+  float: left;
+  border: 1px solid black;
+}
+
+.middle {
+  width: 100%;
+  height: 62.5%;
+  background-color: white;
+  float: left;
+  border: 1px solid black;
+}
+
+.bottom {
+  width: 100%;
+  height: 12.5%;
+  background-color: pink;
+  float: left;
+  border: 1px solid black;
+}
+
+.clear{
+    clear: both;
+}
+

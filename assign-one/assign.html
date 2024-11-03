@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <meta name="auther" content="yossef" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="blog">
+      <div class="articleOne">Blog Article One</div>
+      <div class="articleTwo">Blog Article Two</div>
+      <div class="articleThree">Blog Article Three</div>
+      <div class="clear"></div>
+    </section>
+    <br />
+    <hr />
+    <br />
+    <div class="button">
+      <span id="buttonOne">Primary</span>
+      <span id="buttonTwo">Secondary</span>
+      <span id="buttonThree">Success</span>
+      <span id="buttonFour">Info</span>
+      <span id="buttonFive">Warning</span>
+      <span id="buttonSix">Danger</span>
+      <span id="buttonSeven">Dark</span>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <section class="form">
+      <form action="">
+        <label for="employeeName">Employee Name</label><br />
+        <input
+          type="text"
+          id="employeeName"
+          name="employeeName"
+          placeholder="Enter employee name"
+        /><br />
+        <br />
+        <label for="employeeDepartmentUrl">Employee Department URL</label><br />
+        <input
+          type="text"
+          id="employeeDepartmentUrl"
+          name="employeeDepartmentUrl"
+          placeholder="Enter employee URL"
+        /><br />
+        <br />
+        <label for="startLeaveDate">Start Leave Date</label><br />
+        <input type="date" id="startLeaveDate" name="startLeaveDate" /><br />
+        <br />
+        <label for="endLeaveDate">End Leave Date</label><br />
+        <input type="date" id="endLeaveDate" name="endLeaveDate" /><br />
+        <br />
+        <label for="message">Message</label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Enter your message"
+          rows="10"
+        ></textarea
+        ><br />
+        <br />
+        <button type="submit" id="addLeave">Add Leave</button>
+        <br />
+      </form>
+    </section>
+    <br />
+    <hr />
+    <br />
+    <section class="youtubeVideo">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/1y_kfWUCFDQ?si=k2TL_a1OaYVPFMM1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <br />
+    <hr />
+    <br />
+    <div class="tables">
+      <h3>Default Table</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Invoice</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#VZ2110</td>
+            <td>Bobby Davis</td>
+            <td>October 15, 2021</td>
+            <td>$2,300</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2109</td>
+            <td>Christopher Neal</td>
+            <td>October 7, 2021</td>
+            <td>$5,500</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2108</td>
+            <td>Monkey Karry</td>
+            <td>October 5, 2021</td>
+            <td>$2,420</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2107</td>
+            <td>James White</td>
+            <td>October 2, 2021</td>
+            <td>$7,452</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+        </tbody>
+      </table>
+        <br />
+      <h3>Striped Rows</h3>
+      <table class="table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Invoice</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="firstRow">
+            <td>01</td>
+            <td>Bobby Davis</td>
+            <td>Nov 14, 2021</td>
+            <td>$2,410</td>
+            <td><span class="badge">Confirmed</span></td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Christopher Neal</td>
+            <td>Nov 21, 2021</td>
+            <td>$1,450</td>
+            <td><span class="badge">Waiting</span></td>
+          </tr>
+          <tr class="thirdRow">
+            <td>03</td>
+            <td>Monkey Karry</td>
+            <td>Nov 24, 2021</td>
+            <td>$3,500</td>
+            <td><span class="badge">Confirmed</span></td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>Aaron James</td>
+            <td>Nov 25, 2021</td>
+            <td>$6,875</td>
+            <td><span class="badge">Cancelled</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "DroidKufi";
+  src: url("../fonts/DroidKufi-Regular.ttf");
+}
+
+:root {
+  --primaryColor: #FE6059;
+  --secondaryColor: #1dc3f6;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --boxShadow: 5px 4px 9px #dfdfdf;
+  --droidKufi: "DroidKufi";
+  --robotoFonts: "Roboto";
+  --sectionPadding: 80px 0px;
+}
+
+* {
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1700px;
+  font-family: "Roboto", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+.blog {
+  background-color: #990866;
+  height: 350px;
+  padding: 20px;
+  font-size: 24px;
+}
+.articleOne,
+.articleTwo,
+.articleThree {
+  width: calc(100% / 3 - 20px);
+  height: 100%;
+  background-color: aqua;
+  display: inline;
+  margin: 0px 10px 10px 10px;
+  padding-top: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+.button {
+  /* background-color: #990866; */
+  /* color: #fff; */
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+}
+#buttonOne,
+#buttonTwo,
+#buttonThree,
+#buttonFour,
+#buttonFive,
+#buttonSix,
+#buttonSeven {
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #fff;
+}
+#buttonOne {
+  background-color: #405189;
+}
+#buttonTwo {
+  background-color: #3577f1;
+}
+#buttonThree {
+  background-color: #0ab39c;
+}
+#buttonFour {
+  background-color: #299cdb;
+}
+#buttonFive {
+  background-color: #f7b84b;
+}
+#buttonSix {
+  background-color: #f06548;
+}
+#buttonSeven {
+  background-color: #212529;
+}
+.form {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #000;
+  width: 50%;
+  border-radius: 10px;
+}
+.form input,
+#message {
+  padding: 20px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  width: 75%;
+}
+.form #addLeave {
+  padding: 15px;
+  margin-left: 65%;
+  border-radius: 5px;
+  background-color: #405189;
+  color: #fff;
+}
+.youtubeVideo iframe {
+  aspect-ratio: 16 / 9;
+}
+
+
+
+.tables {
+  width: 100%;
+  display: inline-block;
+}
+table {
+  border: 2px solid #919191;
+  border-radius: 8px;
+}
+.table {
+  width: 50%;
+  height: 200px;
+}
+td {
+  border: 1px solid #919191;
+  padding: 10px;
+ 
+}
+.table-striped {
+    width: 50%;
+    height: 200px;
+    
+}
+.table-striped .firstRow,.thirdRow {
+    background-color: #dfdfdf;
+}

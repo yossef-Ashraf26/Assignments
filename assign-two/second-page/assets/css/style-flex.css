@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "DroidKufi";
+  src: url("../fonts/DroidKufi-Regular.ttf");
+}
+
+:root {
+  --primaryColor: #fe6059;
+  --secondaryColor: #1dc3f6;
+  --greyColor: #eee;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --boxShadow: 5px 4px 9px #dfdfdf;
+  --droidKufi: "DroidKufi";
+  --robotoFonts: "Roboto";
+  --sectionPadding: 80px 0px;
+}
+
+* {
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 1700px; */
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 1px solid black;
+}
+.container .header {
+  background-color: skyblue;
+  flex: 2;
+  border: 1px solid black;
+  padding: 5px;
+}
+.container .content {
+  display: flex;
+  flex-direction: row;
+  flex: 5;
+  padding: 5px;
+}
+.container .content .content-left,
+.content-right {
+  background-color: sienna;
+  flex-grow: 1.5;
+  border: 1px solid black;
+  margin: 5px;
+}
+.container .content-bottom {
+  background-color: lightgray;
+  flex-grow: 1;
+  width: 72%;
+  flex-flow: wrap column;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.container .content .right-nav {
+  background-color: yellow;
+  flex-grow: 1;
+  border: 1px solid black;
+  margin: 5px;
+  height: 120%;
+}
+.container .footer {
+  background-color: pink;
+  flex: 1;
+  border: 1px solid black;
+}
